@@ -4,8 +4,8 @@ use std::{
     io::{BufReader, Read},
 };
 
-pub fn day_01_part1() -> Result<()> {
-    let file = File::open("inputs/day_01_part1.txt").expect("File not found");
+pub fn part1() -> Result<()> {
+    let file = File::open("inputs/day_01.txt").expect("File not found");
     let mut reader = BufReader::new(file);
 
     let mut buf = String::new();
