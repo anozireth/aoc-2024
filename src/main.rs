@@ -9,5 +9,6 @@ fn main() -> Result<()> {
     day_01::part2()?;
 
     day_02::part1()?;
+    day_02::part2()?;
     Ok(())
 }
