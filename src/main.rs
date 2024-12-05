@@ -1,5 +1,6 @@
 mod day_01;
 mod day_02;
+mod day_03;
 
 use anyhow::Result;
 
@@ -10,5 +11,7 @@ fn main() -> Result<()> {
 
     day_02::part1()?;
     day_02::part2()?;
+
+    day_03::part1()?;
     Ok(())
 }
