@@ -17,5 +17,6 @@ fn main() -> Result<()> {
     day_03::part2()?;
 
     day_04::part1()?;
+    day_04::part2()?;
     Ok(())
 }
